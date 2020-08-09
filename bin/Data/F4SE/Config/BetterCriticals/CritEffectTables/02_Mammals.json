@@ -1,0 +1,307 @@
+{
+	"name": "Mammals",
+	"info": [
+		"nonhuman npcs with red blood effects"
+	],
+	
+	"critTables": [
+		
+		{"name": "Sharp Physical", "critTableID": "BetterCriticals.esp|A8ED",
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: Stagger - saved: STR - none",
+					"critEffect": 25, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 0, "savingRollPass": 3
+				},
+				{"info": "46-70: Minor Wound - saved: AGI - Stagger",
+					"critEffect": 30, "rollMax": 70,
+					"savedEffect": 25, "savingRollAV": 5, "savingRollPass": 3
+				},
+				{"info": "71-85: Major Wound - saved: END - Minor Wound",
+					"critEffect": 28, "rollMax": 85,
+					"savedEffect": 30, "savingRollAV": 2, "savingRollPass": 4
+				},
+				{"info": "86-95: Knock Out - saved: END - Knock Down",
+					"critEffect": 18, "rollMax": 95,
+					"savedEffect": 17, "savingRollAV": 2, "savingRollPass": 5
+				},
+				{"info": "96+: Severed Artery - saved: LCK - Knock Out",
+					"critEffect": 48, "rollMax": 255,
+					"savedEffect": 18, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Blunt Physical", "critTableID": "BetterCriticals.esp|A8EE",
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: Stagger - saved: STR - none",
+					"critEffect": 25, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 0, "savingRollPass": 3
+				},
+				{"info": "46-70: Knock Back - saved: AGI - Stagger",
+					"critEffect": 16, "rollMax": 70,
+					"savedEffect": 25, "savingRollAV": 5, "savingRollPass": 3
+				},
+				{"info": "71-85: Knock Down - saved: END - Knock Back",
+					"critEffect": 17, "rollMax": 85,
+					"savedEffect": 16, "savingRollAV": 2, "savingRollPass": 4
+				},
+				{"info": "86-95: Knock Out - saved: END - Knock Down",
+					"critEffect": 18, "rollMax": 95,
+					"savedEffect": 17, "savingRollAV": 2, "savingRollPass": 5
+				},
+				{"info": "96+: Forceful Blow - saved: LCK - Knock Out",
+					"critEffect": 38, "rollMax": 255,
+					"savedEffect": 18, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Red Laser", "critTableID": "BetterCriticals.esp|A8EF",
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: On Fire - saved: END - none",
+					"critEffect": 19, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "46-70: On Fire II - saved: END - On Fire",
+					"critEffect": 20, "rollMax": 70,
+					"savedEffect": 19, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "71-85: Blind Frenzy - saved: INT - Blindness",
+					"critEffect": 1, "rollMax": 85,
+					"savedEffect": 0, "savingRollAV": 4, "savingRollPass": 4
+				},
+				{"info": "86-95: Ionize - saved: END - On Fire II",
+					"critEffect": 15, "rollMax": 95,
+					"savedEffect": 20, "savingRollAV": 2, "savingRollPass": 5
+				},
+				{"info": "96+: Vaporize - saved: LCK - On Fire Panic",
+					"critEffect": 50, "rollMax": 255,
+					"savedEffect": 21, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Blue Laser", "critTableID": "BetterCriticals.esp|A8F7",
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: On Fire - saved: END - none",
+					"critEffect": 19, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "46-70: On Fire II - saved: END - On Fire",
+					"critEffect": 20, "rollMax": 70,
+					"savedEffect": 19, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "71-85: Blind Frenzy - saved: INT - Blindness",
+					"critEffect": 1, "rollMax": 85,
+					"savedEffect": 0, "savingRollAV": 4, "savingRollPass": 4
+				},
+				{"info": "86-95: Ionize - saved: END - On Fire II",
+					"critEffect": 15, "rollMax": 95,
+					"savedEffect": 20, "savingRollAV": 2, "savingRollPass": 5
+				},
+				{"info": "96+: Vaporize - saved: LCK - On Fire Panic",
+					"critEffect": 50, "rollMax": 255,
+					"savedEffect": 21, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Fire", "critTableID": "BetterCriticals.esp|A8F0",
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: On Fire - saved: END - none",
+					"critEffect": 19, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "46-70: On Fire II - saved: END - On Fire",
+					"critEffect": 20, "rollMax": 70,
+					"savedEffect": 19, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "71-85: On Fire II - saved: END - Panic",
+					"critEffect": 20, "rollMax": 85,
+					"savedEffect": 22, "savingRollAV": 2, "savingRollPass": 4
+				},
+				{"info": "86-95: On Fire Panic - saved: INT - On Fire II",
+					"critEffect": 21, "rollMax": 95,
+					"savedEffect": 20, "savingRollAV": 4, "savingRollPass": 5
+				},
+				{"info": "96+: Immolate - saved: LCK - On Fire Panic",
+					"critEffect": 40, "rollMax": 255,
+					"savedEffect": 21, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Electrical", "critTableID": "BetterCriticals.esp|A8F1",
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: Stagger - saved: AGI - none",
+					"critEffect": 17, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 5, "savingRollPass": 3
+				},
+				{"info": "46-70: Ionize - saved: END - Stagger",
+					"critEffect": 15, "rollMax": 70,
+					"savedEffect": 17, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "71-85: Knock Down - saved: AGI - Stagger",
+					"critEffect": 17, "rollMax": 85,
+					"savedEffect": 25, "savingRollAV": 5, "savingRollPass": 4
+				},
+				{"info": "86-95: Static Discharge - saved: END - Knock Down",
+					"critEffect": 26, "rollMax": 95,
+					"savedEffect": 17, "savingRollAV": 2, "savingRollPass": 5
+				},
+				{"info": "96+: Electrocution - saved: LCK - Static Discharge",
+					"critEffect": 34, "rollMax": 255,
+					"savedEffect": 26, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Cryo", "critTableID": "BetterCriticals.esp|A8F3", 
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: Slow - saved: END - none",
+					"critEffect": 24, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "46-70: Chill - saved: END - Slow",
+					"critEffect": 3, "rollMax": 70,
+					"savedEffect": 24, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "71-85: Chill - saved: END - Slow",
+					"critEffect": 3, "rollMax": 85,
+					"savedEffect": 24, "savingRollAV": 2, "savingRollPass": 4
+				},
+				{"info": "86-95: Brittle - saved: END - Chill",
+					"critEffect": 2, "rollMax": 95,
+					"savedEffect": 3, "savingRollAV": 2, "savingRollPass": 5
+				},
+				{"info": "96+: Freeze - saved: LCK - Brittle",
+					"critEffect": 39, "rollMax": 255,
+					"savedEffect": 2, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Poison", "critTableID": "BetterCriticals.esp|A8F2", 
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: Slow - saved: END - none",
+					"critEffect": 24, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "46-70: Poison DOT - saved: END - Slow",
+					"critEffect": 12, "rollMax": 70,
+					"savedEffect": 24, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "71-85: Poison DOT - saved: END - Weaken",
+					"critEffect": 12, "rollMax": 85,
+					"savedEffect": 27, "savingRollAV": 2, "savingRollPass": 4
+				},
+				{"info": "86-95: Knock Out - saved: END - Knock Down",
+					"critEffect": 18, "rollMax": 95,
+					"savedEffect": 17, "savingRollAV": 2, "savingRollPass": 5
+				},
+				{"info": "96+: Lethal Poison - saved: LCK - Knock Out",
+					"critEffect": 42, "rollMax": 255,
+					"savedEffect": 18, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Radiation", "critTableID": "BetterCriticals.esp|A8F4",
+			"effects": [
+				{"info": "0-255 - none", "rollMax": 255}
+			]
+		},
+		
+		{"name": "Plasma", "critTableID": "BetterCriticals.esp|A151",
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: Stagger - saved: STR - none",
+					"critEffect": 25, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 0, "savingRollPass": 3
+				},
+				{"info": "46-70: Blindness - saved: AGI - Stagger",
+					"critEffect": 0, "rollMax": 70,
+					"savedEffect": 25, "savingRollAV": 5, "savingRollPass": 3
+				},
+				{"info": "71-85: On Fire - saved: END - Weaken",
+					"critEffect": 19, "rollMax": 85,
+					"savedEffect": 27, "savingRollAV": 2, "savingRollPass": 4
+				},
+				{"info": "86-95: Knock Out - saved: END - Knock Down",
+					"critEffect": 18, "rollMax": 95,
+					"savedEffect": 17, "savingRollAV": 2, "savingRollPass": 5
+				},
+				{"info": "96+: Plasma Melt - saved: LCK - Knock Out",
+					"critEffect": 44, "rollMax": 255,
+					"savedEffect": 18, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Explosion", "critTableID": "BetterCriticals.esp|A153", 
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: Stagger - saved: STR - none",
+					"critEffect": 25, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 0, "savingRollPass": 3
+				},
+				{"info": "46-70: Minor Wound - saved: AGI - Stagger",
+					"critEffect": 30, "rollMax": 70,
+					"savedEffect": 25, "savingRollAV": 5, "savingRollPass": 3
+				},
+				{"info": "71-85: Major Wound - saved: END - Minor Wound",
+					"critEffect": 28, "rollMax": 85,
+					"savedEffect": 30, "savingRollAV": 2, "savingRollPass": 4
+				},
+				{"info": "86-95: Knock Out - saved: END - Knock Down",
+					"critEffect": 18, "rollMax": 95,
+					"savedEffect": 17, "savingRollAV": 2, "savingRollPass": 5
+				},
+				{"info": "96+: Explode Red - saved: LCK - Knock Out",
+					"critEffect": 36, "rollMax": 255,
+					"savedEffect": 18, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Alien", "critTableID": "BetterCriticals.esp|A152", 
+			"effects": [
+				{"info": "0-25: none", "rollMax": 25},
+				{"info": "26-45: On Fire - saved: END - none",
+					"critEffect": 19, "rollMax": 45,
+					"savedEffect": -1, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "46-70: On Fire II - saved: END - On Fire",
+					"critEffect": 20, "rollMax": 70,
+					"savedEffect": 19, "savingRollAV": 2, "savingRollPass": 3
+				},
+				{"info": "71-85: Blind Frenzy - saved: INT - Blindness",
+					"critEffect": 1, "rollMax": 85,
+					"savedEffect": 0, "savingRollAV": 4, "savingRollPass": 4
+				},
+				{"info": "86-95: Ionize - saved: END - On Fire II",
+					"critEffect": 15, "rollMax": 95,
+					"savedEffect": 20, "savingRollAV": 2, "savingRollPass": 5
+				},
+				{"info": "96+: AlienDisintegrate - saved: LCK - On Fire Panic",
+					"critEffect": 33, "rollMax": 255,
+					"savedEffect": 21, "savingRollAV": 6, "savingRollPass": 6
+				}
+			]
+		},
+		
+		{"name": "Acid", "critTableID": "BetterCriticals.esp|B0BA",
+			"effects": [
+				{"info": "0-255 - none", "rollMax": 255}
+			]
+		}
+	]
+}

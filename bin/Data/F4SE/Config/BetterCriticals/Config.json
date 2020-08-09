@@ -1,0 +1,73 @@
+{
+	"info": "Better Criticals Config",
+	
+	"bUseSavingRolls": true,
+	
+	"avCritChanceID": "Fallout4.esm|2DD",
+	"avCritRollModID": "BetterCriticals.esp|823",
+	"avCritEffectsTypeID": "BetterCriticals.esp|A150",
+	
+	"bDistRaceCritTableIDs": true,
+	"bDistWeaponCritTables": true,
+	"bDistActorCritChances": true,
+	
+	"savingRollAVs": [
+		"Fallout4.esm|2C2", "Fallout4.esm|2C3", "Fallout4.esm|2C4", "Fallout4.esm|2C5",
+		"Fallout4.esm|2C6", "Fallout4.esm|2C7", "Fallout4.esm|2C8"
+	],
+	
+	"critEffects": [
+		{"formID": "BetterCriticals.esp|0850", "info": "00 - Temporary Blindness"},
+		{"formID": "BetterCriticals.esp|1F6A", "info": "01 - Blind Frenzy"},
+		{"formID": "BetterCriticals.esp|1F62", "info": "02 - Brittle"},
+		{"formID": "BetterCriticals.esp|17C3", "info": "03 - Chill"},
+		{"formID": "BetterCriticals.esp|2ED1", "info": "04 - Cripple Arms"},
+		{"formID": "BetterCriticals.esp|2ECF", "info": "05 - Cripple Legs"},
+		{"formID": "BetterCriticals.esp|2EC7", "info": "06 - Cripple Random Limbs"},
+		{"formID": "BetterCriticals.esp|1F6E", "info": "07 - Damage Armor Values"},
+		{"formID": "BetterCriticals.esp|0854", "info": "08 - Temporary Deafness"},
+		{"formID": "BetterCriticals.esp|0858", "info": "09 - Disarm"},
+		{"formID": "BetterCriticals.esp|1015", "info": "10 - Shock"},
+		{"formID": "BetterCriticals.esp|100F", "info": "11 - Burn"},
+		{"formID": "BetterCriticals.esp|0879", "info": "12 - Poison"},
+		{"formID": "BetterCriticals.esp|1F68", "info": "13 - Arc"},
+		{"formID": "BetterCriticals.esp|085D", "info": "14 - Frenzy"},
+		{"formID": "BetterCriticals.esp|1012", "info": "15 - Ionize"},
+		{"formID": "BetterCriticals.esp|17C4", "info": "16 - Knock Back"},
+		{"formID": "BetterCriticals.esp|17C6", "info": "17 - Knock Down"},
+		{"formID": "BetterCriticals.esp|17C9", "info": "18 - Knock Out"},
+		{"formID": "BetterCriticals.esp|2714", "info": "19 - On Fire"},
+		{"formID": "BetterCriticals.esp|1F60", "info": "20 - On Fire II"},
+		{"formID": "BetterCriticals.esp|2712", "info": "21 - On Fire II + Panic"},
+		{"formID": "BetterCriticals.esp|0869", "info": "22 - Panic"},
+		{"formID": "BetterCriticals.esp|0861", "info": "23 - Paralyze"},
+		{"formID": "BetterCriticals.esp|0874", "info": "24 - Slow"},
+		{"formID": "BetterCriticals.esp|0865", "info": "25 - Stagger"},
+		{"formID": "BetterCriticals.esp|270E", "info": "26 - Static Discharge"},
+		{"formID": "BetterCriticals.esp|1009", "info": "27 - Weaken"},
+		{"formID": "BetterCriticals.esp|2739", "info": "28 - Major Wound (with bleed FX)"},
+		{"formID": "BetterCriticals.esp|273B", "info": "29 - Major Wound"},
+		{"formID": "BetterCriticals.esp|0870", "info": "30 - Minor Wound (with bleed FX)"},
+		{"formID": "BetterCriticals.esp|1F6F", "info": "31 - Minor Wound"},
+		
+		{"formID": "BetterCriticals.esp|2736", "info": "32 - Acid Instant Kill"},
+		{"formID": "BetterCriticals.esp|272D", "info": "33 - Alien Instant Kill"},
+		{"formID": "BetterCriticals.esp|2728", "info": "34 - Electrical Instant Kill"},
+		{"formID": "BetterCriticals.esp|2EE2", "info": "35 - Explosion Instant Kill (Green Blood)"},
+		{"formID": "BetterCriticals.esp|271D", "info": "36 - Explosion Instant Kill (Red Blood)"},
+		{"formID": "BetterCriticals.esp|2EE4", "info": "37 - Explosion Instant Kill (Robot)"},
+		{"formID": "BetterCriticals.esp|1F6B", "info": "38 - Physical Force Instant Kill"},
+		{"formID": "BetterCriticals.esp|2730", "info": "39 - Cryo Instant Kill"},
+		{"formID": "BetterCriticals.esp|2717", "info": "40 - Fire Instant Kill"},
+		{"formID": "BetterCriticals.esp|3E37", "info": "41 - Fire Instant Kill (Human)"},
+		{"formID": "BetterCriticals.esp|272A", "info": "42 - Poison Instant Kill"},
+		{"formID": "BetterCriticals.esp|2734", "info": "43 - Plasma Instant Kill (Gooify)"},
+		{"formID": "BetterCriticals.esp|2EE8", "info": "44 - Plasma Instant Kill (Melt Animal)"},
+		{"formID": "BetterCriticals.esp|2EE6", "info": "45 - Plasma Instant Kill (Melt Human)"},
+		{"formID": "BetterCriticals.esp|2EEA", "info": "46 - Plasma Instant Kill (Melt Insect)"},
+		{"formID": "BetterCriticals.esp|2EEC", "info": "47 - Plasma Instant Kill (Melt Robot)"},
+		{"formID": "BetterCriticals.esp|1F6D", "info": "48 - Bleeding Instant Kill"},
+		{"formID": "BetterCriticals.esp|2723", "info": "49 - Laser Instant Kill (Human)"},
+		{"formID": "BetterCriticals.esp|45F0", "info": "50 - Laser Instant Kill"}
+	]
+}

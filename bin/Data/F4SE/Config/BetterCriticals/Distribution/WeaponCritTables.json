@@ -1,0 +1,50 @@
+{
+	"weapons": [
+		{"weapon": "Fallout4.esm|004822", "enchantment": "BetterCriticals.esp|A14F", "info": "10mm - Sharp Physical"},
+		{"weapon": "Fallout4.esm|0CE97D", "enchantment": "BetterCriticals.esp|A14F", "info": "44 - Sharp Physical"},
+		{"weapon": "Fallout4.esm|00463F", "enchantment": "BetterCriticals.esp|A14F", "info": "AssaultRifle - Sharp Physical"},
+		{"weapon": "Fallout4.esm|0DF42E", "enchantment": "BetterCriticals.esp|A14F", "info": "CombatRifle - Sharp Physical"},
+		{"weapon": "Fallout4.esm|14831C", "enchantment": "BetterCriticals.esp|A14F", "info": "CombatShotgun - Sharp Physical"},
+		{"weapon": "Fallout4.esm|0DC8E7", "enchantment": "BetterCriticals.esp|A14F", "info": "Deliverer - Sharp Physical"},
+		{"weapon": "Fallout4.esm|092217", "enchantment": "BetterCriticals.esp|A14F", "info": "DoubleBarrelShotgun - Sharp Physical"},
+		{"weapon": "Fallout4.esm|04F46A", "enchantment": "BetterCriticals.esp|A14F", "info": "HuntingRifle - Sharp Physical"},
+		{"weapon": "Fallout4.esm|01F669", "enchantment": "BetterCriticals.esp|A14F", "info": "Minigun - Sharp Physical"},
+		{"weapon": "Fallout4.esm|14831A", "enchantment": "BetterCriticals.esp|A14F", "info": "PipeBoltAction - Sharp Physical"},
+		{"weapon": "Fallout4.esm|024F55", "enchantment": "BetterCriticals.esp|A14F", "info": "PipeGun - Sharp Physical"},
+		{"weapon": "Fallout4.esm|14831B", "enchantment": "BetterCriticals.esp|A14F", "info": "PipeRevolver - Sharp Physical"},
+		
+		{"weapon": "Fallout4.esm|147BE4", "enchantment": "BetterCriticals.esp|A14F", "info": "ChineseOfficerSword - Sharp Physical"},
+		{"weapon": "Fallout4.esm|183FCD", "enchantment": "BetterCriticals.esp|A14F", "info": "GrognakAxe - Sharp Physical"},
+		{"weapon": "Fallout4.esm|0913CA", "enchantment": "BetterCriticals.esp|A14F", "info": "Knife - Sharp Physical"},
+		{"weapon": "Fallout4.esm|033FE0", "enchantment": "BetterCriticals.esp|A14F", "info": "Machete - Sharp Physical"},
+		
+		{"weapon": "Fallout4.esm|08E736", "enchantment": "BetterCriticals.esp|A905", "info": "BaseballBat - Blunt Physical"},
+		{"weapon": "Fallout4.esm|08C14D", "enchantment": "BetterCriticals.esp|A905", "info": "Baton - Blunt Physical"},
+		{"weapon": "Fallout4.esm|05C250", "enchantment": "BetterCriticals.esp|A905", "info": "Board - Blunt Physical"},
+		{"weapon": "Fallout4.esm|0FC9C3", "enchantment": "BetterCriticals.esp|A905", "info": "LeadPipe - Blunt Physical"},
+		{"weapon": "Fallout4.esm|0D83BF", "enchantment": "BetterCriticals.esp|A905", "info": "PipeWrench - Blunt Physical"},
+		{"weapon": "Fallout4.esm|0FA3E8", "enchantment": "BetterCriticals.esp|A905", "info": "PoolCue - Blunt Physical"},
+		
+		{"weapon": "Fallout4.esm|0FF995", "enchantment": "BetterCriticals.esp|A915", "info": "AlienBlaster - Alien"},
+		
+		{"weapon": "Fallout4.esm|171B2B", "enchantment": "BetterCriticals.esp|A902", "info": "Cryolator - Cryo"},
+		
+		{"weapon": "Fallout4.esm|0E5881", "enchantment": "BetterCriticals.esp|A8FA", "info": "Flamer - Fire"},
+		
+		{"weapon": "Fallout4.esm|09983B", "enchantment": "BetterCriticals.esp|A8F8", "info": "LaserGun - Red Laser"},
+		{"weapon": "Fallout4.esm|01DACF", "enchantment": "BetterCriticals.esp|A8F8", "info": "LaserMusket - Red Laser"},
+		{"weapon": "Fallout4.esm|0DD4B1", "enchantment": "BetterCriticals.esp|A8F8", "info": "AssaultronLaser - Red Laser"},
+		
+		{"weapon": "Fallout4.esm|1633CC", "enchantment": "BetterCriticals.esp|A908", "info": "InstituteLaserGun - Blue Laser"},
+		
+		{"weapon": "Fallout4.esm|100AE9", "enchantment": "BetterCriticals.esp|A8FF", "info": "PlasmaGun - Plasma"},
+		
+		{"weapon": "Fallout4.esm|0D1EB0", "enchantment": "BetterCriticals.esp|A912", "info": "GaussRifle - Explosion"}
+	],
+	
+	
+	"explosions": [
+		{"explosion": "Fallout4.esm|0E574F", "enchantment": "BetterCriticals.esp|A912", "info": "Frag Grenade - Explosion"},
+		{"explosion": "Fallout4.esm|1D412E", "enchantment": "BetterCriticals.esp|A8FA", "info": "Molotov Cocktail - Fire"}
+	]
+}

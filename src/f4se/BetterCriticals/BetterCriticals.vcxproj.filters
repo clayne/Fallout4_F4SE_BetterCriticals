@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{b45a9dcc-268f-4bd3-a8cf-f23fa6e3f360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F4SEPlugin">
+      <UniqueIdentifier>{a07f2895-8ce3-4061-a2e0-d172df42e265}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BetterCriticals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PapyrusBetterCriticals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>F4SEPlugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RNG.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="nlohmann\json.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>F4SEPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="BetterCriticals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PapyrusBetterCriticals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>F4SEPlugin</Filter>
+    </None>
+  </ItemGroup>
+</Project>

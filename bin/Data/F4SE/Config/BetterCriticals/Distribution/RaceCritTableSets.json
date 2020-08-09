@@ -1,0 +1,40 @@
+{
+	"raceCritTables": [
+		{"formID": "Fallout4.esm|13746", "critTableID": 1, "info": "Human - Humans"},
+		{"formID": "Fallout4.esm|EAFB6", "critTableID": 1, "info": "Ghoul - Humans"},
+		
+		{"formID": "Fallout4.esm|6B4EC", "critTableID": 2, "info": "Feral Ghoul - Mammals"},
+		{"formID": "Fallout4.esm|A96BF", "critTableID": 2, "info": "Glowing One - Mammals"},
+		{"formID": "Fallout4.esm|1A009", "critTableID": 2, "info": "Supermutant - Mammals"},
+		
+		{"formID": "Fallout4.esm|90C33", "critTableID": 2, "info": "FEV Hounds - Mammals"},
+		{"formID": "Fallout4.esm|2047E", "critTableID": 2, "info": "Brahmin - Mammals"},
+		
+		{"formID": "Fallout4.esm|1D698", "critTableID": 2, "info": "Dogmeat - Mammals"},
+		
+		{"formID": "Fallout4.esm|7ED1D", "critTableID": 2, "info": "RadStag - Mammals"},
+		{"formID": "Fallout4.esm|187AF9", "critTableID": 2, "info": "RaiderDog - Mammals"},
+		{"formID": "Fallout4.esm|1D810", "critTableID": 2, "info": "Molerat - Mammals"},
+		{"formID": "Fallout4.esm|3578A", "critTableID": 2, "info": "ViciousDog - Mammals"},
+		{"formID": "Fallout4.esm|A0F2F", "critTableID": 2, "info": "YaoGuai - Mammals"},
+		
+		{"formID": "Fallout4.esm|29463", "critTableID": 3, "info": "Bloatfly - Insects"},
+		{"formID": "Fallout4.esm|2456D", "critTableID": 3, "info": "Bloodbug - Insects"},
+		{"formID": "Fallout4.esm|4716C", "critTableID": 3, "info": "RadRoach - Insects"},
+		{"formID": "Fallout4.esm|636AB", "critTableID": 3, "info": "RadScorpion - Insects"},
+		{"formID": "Fallout4.esm|5FBB1", "critTableID": 3, "info": "Stingwing - Insects"}
+		
+	],
+	
+	
+	"unarmedCritSpells": [
+		{"race": "Fallout4.esm|3578A", "perkSpell": "BetterCriticals.esp|DE59", "info": "ViciousDogRace - Sharp Phys"},
+		{"race": "Fallout4.esm|187AF9", "perkSpell": "BetterCriticals.esp|DE59", "info": "RaiderDogRace - Sharp Phys"},
+		{"race": "Fallout4.esm|1D698", "perkSpell": "BetterCriticals.esp|DE59", "info": "DogMeatRace - Sharp Phys"},
+		{"race": "Fallout4.esm|1D810", "perkSpell": "BetterCriticals.esp|DE59", "info": "MoleratRace - Sharp Phys"},
+		
+		{"race": "Fallout4.esm|6B4EC", "perkSpell": "BetterCriticals.esp|ED90", "info": "FeralGhoulRace - Blunt Phys"},
+		{"race": "Fallout4.esm|A96BF", "perkSpell": "BetterCriticals.esp|ED90", "info": "FeralGhoulGlowingRace - Blunt Phys"}
+		
+	]
+}

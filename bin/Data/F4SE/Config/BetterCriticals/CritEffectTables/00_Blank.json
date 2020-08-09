@@ -1,0 +1,74 @@
+{
+	"name": "Default/Empty",
+	"info": [
+		"Blank table for npcs that are immune to crit effects or not yet set up"
+	],
+	
+	"critTables": [
+		{"name": "Sharp Physical", "critTableID": "BetterCriticals.esp|A8ED",
+			"effects": [
+				{"info": "0-255: none", "rollMax": 255}
+			]
+		},
+		{"name": "Blunt Physical", "critTableID": "BetterCriticals.esp|A8EE",
+			"effects": [
+				{"info": "0-255: none", "rollMax": 255}
+			]
+		},
+		{"name": "Red Laser", "critTableID": "BetterCriticals.esp|A8EF",
+			"effects": [
+				{"info": "0-255: none", "rollMax": 255}
+			]
+		},
+		{"name": "Blue Laser", "critTableID": "BetterCriticals.esp|A8F7",
+			"effects": [
+				{"info": "0-255: none", "rollMax": 255}
+			]
+		},
+		{"name": "Fire", "critTableID": "BetterCriticals.esp|A8F0",
+			"effects": [
+				{"info": "0-255: none", "rollMax": 255}
+			]
+		},
+		{"name": "Electrical", "critTableID": "BetterCriticals.esp|A8F1",
+			"effects": [
+				{"info": "0-255: none", "rollMax": 255}
+			]
+		},
+		{"name": "Cryo", "critTableID": "BetterCriticals.esp|A8F3", 
+			"effects": [
+				{"info": "0-255: none", "rollMax": 255}
+			]
+		},
+		{"name": "Poison", "critTableID": "BetterCriticals.esp|A8F2", 
+			"effects": [
+				{"info": "0-255: none", "rollMax": 255}
+			]
+		},
+		{"name": "Radiation", "critTableID": "BetterCriticals.esp|A8F4",
+			"effects": [
+				{"info": "0-255 - none", "rollMax": 255}
+			]
+		},
+		{"name": "Plasma", "critTableID": "BetterCriticals.esp|A151",
+			"effects": [
+				{"info": "0-255 - none", "rollMax": 255}
+			]
+		},
+		{"name": "Explosion", "critTableID": "BetterCriticals.esp|A153", 
+			"effects": [
+				{"info": "0-255 - none", "rollMax": 255}
+			]
+		},
+		{"name": "Alien", "critTableID": "BetterCriticals.esp|A152", 
+			"effects": [
+				{"info": "0-255 - none", "rollMax": 255}
+			]
+		},
+		{"name": "Acid", "critTableID": "BetterCriticals.esp|B0BA",
+			"effects": [
+				{"info": "0-255 - none", "rollMax": 255}
+			]
+		}
+	]
+}

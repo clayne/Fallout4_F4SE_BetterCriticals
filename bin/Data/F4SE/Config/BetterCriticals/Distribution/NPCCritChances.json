@@ -1,0 +1,9 @@
+{
+	"actors": [
+		{"actor": "Fallout4.esm|1D15A", "critChanceBase": 3.0, "info": "EncViciousDog01Template"},
+		{"actor": "Fallout4.esm|1CF28C", "critChanceBase": 3.0, "info": "EncRaiderDogTemplate"},
+		{"actor": "Fallout4.esm|01D966", "critChanceBase": 3.0, "info": "EncMolerat01Template"},
+		{"actor": "Fallout4.esm|0758AD", "critChanceBase": 3.0, "info": "EncFeralGhoul01Template"},
+		{"actor": "Fallout4.esm|020BCC", "critChanceBase": 5.0, "info": "EncFeralGhoulGlowing01"}
+	]
+}
